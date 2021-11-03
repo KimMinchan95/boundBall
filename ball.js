@@ -17,7 +17,7 @@ export class Ball {
 
     this.bounceBlock(block);
     
-    ctx.fillStyle = '#fdd700';
+    ctx.fillStyle = '#554f7f';
     ctx.beginPath();
     ctx.arc(this.x, this.y, this.radius, 0, 2 * Math.PI);
     ctx.fill();
